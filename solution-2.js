@@ -1,6 +1,6 @@
 
 
-function generateArrayBetween(num1, num2) {
+function generateNumbersBetween(num1, num2) {
     //represents the minimum number within the range
     let start = Math.min(num1, num2);
     //represents the maximum number within the range
@@ -16,5 +16,7 @@ function generateArrayBetween(num1, num2) {
 }
 
 // Test the function
-console.log(generateArrayBetween(4, 7)); // Output: [4, 5, 6, 7]
-console.log(generateArrayBetween(-4, 7)); // Output: [-4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
+console.log(generateNumbersBetween(4, 7));
+ // Result should give: [4, 5, 6, 7]
+console.log(generateNumbersBetween(-4, 7)); 
+// Result should give: [-4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
